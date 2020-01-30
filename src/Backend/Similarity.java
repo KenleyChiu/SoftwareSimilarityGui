@@ -36,7 +36,7 @@ public class Similarity {
         }
         percentage = (sameLines / totalLines) * 100;
 
-        return filename1+" and "+filename2+" have a similarity rate of "+percentage+ "% when compared per " + comparison + ".";
+        return filename1+" and "+filename2+" have a similarity rate of\n"+percentage+ "% when compared per " + comparison + ".";
     }
 
     public String ReadCodeCharacter(String comparison) {
@@ -77,7 +77,7 @@ public class Similarity {
         prog1Scan.close();
         prog2Scan.close();
         percentage = ((float) countChar / (float) countTotal) * (float) 100;
-        return filename1+" and "+filename2+" have a similarity rate of "+percentage+ "% when compared per " + comparison + ".";
+        return filename1+" and "+filename2+" have a similarity rate of\n"+percentage+ "% when compared per " + comparison + ".";
 
 
     }

@@ -22,9 +22,9 @@
                         </Label>
                      </children>
                   </VBox>
-                  <VBox alignment="CENTER" prefHeight="66.0" prefWidth="554.0">
+                  <VBox alignment="CENTER" prefHeight="155.0" prefWidth="500.0">
                      <children>
-                        <Label fx:id="percentage" text="Percentage">
+                        <Label fx:id="percentage" alignment="CENTER" prefHeight="130.0" prefWidth="467.0" text="Percentage" textAlignment="CENTER">
                            <font>
                               <Font size="17.0" />
                            </font>

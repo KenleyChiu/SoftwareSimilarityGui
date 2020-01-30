@@ -43,7 +43,7 @@
                         </HBox>
                      </children>
                   </VBox>
-                  <HBox prefHeight="31.0" prefWidth="140.0">
+                  <HBox alignment="CENTER" prefHeight="31.0" prefWidth="140.0" spacing="20.0">
                      <children>
                         <Button fx:id="next" mnemonicParsing="false" onAction="#toNext" text="Check" />
                         <Button fx:id="quit" mnemonicParsing="false" onAction="#toExit" text="Quit" />
